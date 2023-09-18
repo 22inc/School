@@ -10,7 +10,7 @@ def main():
     time.sleep(1)
     print("My legal name is Malik Khalid Abdalla Hassan.")
     time.sleep(1)
-    print("I am a Software Engineer that specializes in Python.")
+    print("I am a Software Engineer that has specialized in Python since 2018.")
     time.sleep(1)
     print("I was born May 13, 2009 in Washington D.C. but spent my life in Berkeley, California.")
     time.sleep(1)
