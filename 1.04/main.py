@@ -23,6 +23,6 @@ def main():
     sys.exit()
 main()
 
-# Has a conversation with you about your local attractions.
+# Has a conversation with you about your favorite color.
 # Creative Commons Attribution-NonCommercial 4.0 International
 # Do not reupload without significant changes, do not use in ANY way for commercial ventures.
