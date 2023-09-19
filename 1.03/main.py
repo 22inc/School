@@ -1,12 +1,15 @@
 import os
 import sys
 import time
+import datetime
 
+current_date = datetime.datetime.now()
 
 def main():
     os.system('clear')
     os.system('cls')
-    print("About me!\n")
+    print("About me!")
+    print("You are using this program on " + str(current_date) + ".\n")
     time.sleep(1)
     print("My legal name is Malik Khalid Abdalla Hassan.")
     time.sleep(1)

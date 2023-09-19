@@ -1,13 +1,15 @@
 import os
 import sys
 import time
-from googlesearch import search
-import requests
+import datetime
+
+current_date = datetime.datetime.now()
 
 def main():
     os.system('clear')
     os.system('cls')
-    print("1.04 Input Responder\n")
+    print("1.04 Input Responder")
+    print("You are using this program on " + str(current_date) + ".\n")
     print("My name is Malik!")
     time.sleep(1)
     ni = input("What is your name? ")
