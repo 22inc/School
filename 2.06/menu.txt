@@ -1,0 +1,4 @@
+Waffle_Fries:1.85
+Chicken_Sandwhich:3.05
+Lemonade:1.85
+Icedream_Cup:1.85
