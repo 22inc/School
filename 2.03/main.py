@@ -22,8 +22,7 @@ print(f"The surface area of the cylinder is: {totalSurfaceArea:.2f}")
 print(f"The volume of the cylinder is: {volume:.2f}")
 
 time.sleep(10)
-os.system('clear')
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 sys.exit()
 
 # Calculates volume and surface areas of cylinders.

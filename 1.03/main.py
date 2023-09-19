@@ -6,8 +6,7 @@ import datetime
 currentDate = datetime.datetime.now()
 
 def main():
-    os.system('clear')
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print("About me!")
     print("You are using this program on " + str(currentDate) + ".\n")
     time.sleep(1)
@@ -21,8 +20,7 @@ def main():
     time.sleep(1)
     print("I am exicted to advance my career in Software Engineering!")
     time.sleep(30)
-    os.system('clear')
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     sys.exit()
 main()
 

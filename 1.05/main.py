@@ -20,8 +20,7 @@ def main():
     time.sleep(1)
     print("Wow you have amazing taste, " + colorInput + " is an amazing color!")
     time.sleep(10)
-    os.system('clear')
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     sys.exit()
 main()
 
