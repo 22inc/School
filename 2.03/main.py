@@ -25,3 +25,7 @@ time.sleep(10)
 os.system('clear')
 os.system('cls')
 sys.exit()
+
+# Has a conversation with you about your favorite color.
+# Creative Commons Attribution-NonCommercial 4.0 International
+# Do not reupload without significant changes, do not use in ANY way for commercial ventures.
