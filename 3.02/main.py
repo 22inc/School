@@ -49,3 +49,7 @@ drawBigCircleShape(numSmallStars, starSize, starColor)
 
 # Close the Turtle Graphics window when done
 turtle.done()
+
+# Creates a big circle depending on inputs.
+# Creative Commons Attribution-NonCommercial 4.0 International
+# Do not reupload without significant changes, do not use in ANY way for commercial ventures.
