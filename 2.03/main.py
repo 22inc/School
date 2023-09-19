@@ -6,8 +6,7 @@ import datetime
 
 currentDate = datetime.datetime.now()
 
-os.system('clear')
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 print("Coded by Malik.")
 print("Today's date is: " + str(currentDate))
