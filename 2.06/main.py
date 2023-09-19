@@ -1,6 +1,9 @@
 import os
 import sys
 import time
+import datetime
+
+currentDate = datetime.datetime.now()
 
 def load_menu():
     menu = {}
@@ -22,6 +25,9 @@ def main():
         print("Menu:")
         for item, price in menu.items():
             print(f"{item}: ${price:.2f}")
+            
+        print("\nHello my name is Malik, I will be the server for you today.")
+        print("Todays date is: " + str(currentDate))
         
         item = input("\nWhat would you like to order (press 'r' to checkout): ").strip()
         

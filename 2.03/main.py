@@ -2,11 +2,17 @@ import math
 import os
 import sys
 import time
+import datetime
+
+currentDate = datetime.datetime.now()
 
 os.system('clear')
 os.system('cls')
 
-print("This program calculates the volume and surface area of a cylinder.\n")
+print("Coded by Malik.")
+print("Todays date is: " + str(currentDate))
+
+print("\nThis program calculates the volume and surface area of a cylinder.\n")
 
 radius = float(input("Enter the radius (r) of the cylinder: "))
 height = float(input("Enter the height (h) of the cylinder: "))
