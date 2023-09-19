@@ -3,7 +3,7 @@ import sys
 import time
 import datetime
 
-current_date = datetime.datetime.now()
+currentDate = datetime.datetime.now()
 
 def main():
     os.system('clear')
