@@ -20,7 +20,7 @@ def main():
     print("Me and my mother moved to Green Bay in late 2021.")
     time.sleep(1)
     print("I am exicted to advance my career in Software Engineering!")
-    time.sleep(10)
+    time.sleep(30)
     os.system('clear')
     os.system('cls')
     sys.exit()
