@@ -8,7 +8,7 @@ current_date = datetime.datetime.now()
 def main():
     os.system('clear')
     os.system('cls')
-    print("1.04 Input Responder")
+    print("1.05 Input Responder")
     print("You are using this program on " + str(current_date) + ".\n")
     print("My name is Malik!")
     time.sleep(1)
