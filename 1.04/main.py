@@ -3,7 +3,7 @@ import sys
 import time
 import datetime
 
-current_date = datetime.datetime.now()
+currentDate = datetime.datetime.now()
 
 def main():
     os.system('clear')
@@ -12,11 +12,11 @@ def main():
     print("You are using this program on " + str(current_date) + ".\n")
     print("My name is Malik!")
     time.sleep(1)
-    ni = input("What is your name? ")
+    nameInput = input("What is your name? ")
     time.sleep(1)
     print("Nice to meet you " + ni + "!")
     time.sleep(1)
-    ci = input("What is your favorite color? ")
+    colorInput = input("What is your favorite color? ")
     time.sleep(1)
     print("Wow you have amazing taste, " + ci + " is an amazing color!")
     time.sleep(10)
