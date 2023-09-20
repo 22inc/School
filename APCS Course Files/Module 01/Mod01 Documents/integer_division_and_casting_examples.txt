@@ -1,0 +1,41 @@
+Integer Division in Java
+
+ When dividing two integers in java, java performs two separate calculations.
+/  →  Gives the integer quotient (result) of the division and ignores the remainder.
+
+% → Gives the integer remainder of the division and ignores the quotient.
+
+
+Example 1:
+23 / 4 = 5 in java
+23 goes into 4  a total of 5 times evenly
+java ignores the remainder in this calculation 
+
+23 % 4 = 3 in java
+when you divide 23 by 4, the quotient is 5 and you have 3 left over (remainder).
+
+Anytime 2 integers are divided in java, use one or both of the operators above depending on what you need (quotient or remainder).
+
+Example 2:
+29 / 5 = 5
+29 % 5 = 4
+
+Example 3:
+30 / 6  =  5
+30 % 6 = 0
+
+
+If you divide an integer and a double, then the / symbol will give you a double as a result.
+
+Example 1:
+23.0 / 4 = 5.75  //double dividing an int gives a double for a result
+
+Example 2:
+23 / 4.0 = 5.75  //int dividing a double gives a double for a result
+
+Example 3:
+(double) 23 / 4 = 5.75   //23 is converted to a double before the division so the result is a double
+
+Example 4:
+(double)(23/4) = 5.0  
+//the division happens first int / int = int result  which is then converted to a double
