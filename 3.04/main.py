@@ -11,7 +11,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 print("Hello my name is Malik, I will be the painter for you today.")
 print("Todays date is: " + str(currentDate))
-print("This is Sunny Days!")
+print("\nThis is Sunny Days!")
 
 # Set up the screen
 t.bgcolor("lightblue")
