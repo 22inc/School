@@ -1,4 +1,4 @@
-package com.example.calculationsv3;
+package com.example.calculationsv4;
 
 
 /**
@@ -7,21 +7,23 @@ package com.example.calculationsv3;
  * decimals.
  *  
  * @ author Malik Hassan
- * @ version 09/22/2023 (3)
+ * @ version 09/22/2023 (4)
  */
 
-public class CalculationsV3
+public class CalculationsV4
 {
     public static void main(String[ ] args)
     {
     	int aNum1 = 25;
     	int aNum2 = 9;
 
+    	double adNum3 = 43.21;
+    	double adNum4 = 3.14;
     	
     	// Addition
     	System.out.println("Addition");
     	System.out.println(aNum1 + " + " + aNum2 + " = " +  (aNum1 + aNum2));
-        System.out.println("43.21 + 3.14 = " + 43.21 + 3.14);
+    	System.out.println(adNum3 + " + " + adNum4 + " = " +  (adNum3 + adNum4));
         System.out.println();
         
         // Subtraction
