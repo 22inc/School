@@ -30,7 +30,7 @@ public class StudentInfoCard {
 	   System.out.println();
 	   System.out.println("Why I am taking this course:");
 	   System.out.print("I am taking this course because I would like to become a Software Engineer, and to be a well rounded Sotware Engineer I should learn Java. This course will prepare me for the college environment and I am happy that I have this resource.");
-	
+	   
 	   // Printing all of the information out.
 	   
 	} 
