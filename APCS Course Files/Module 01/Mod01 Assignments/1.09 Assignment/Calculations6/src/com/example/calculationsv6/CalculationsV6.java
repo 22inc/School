@@ -86,7 +86,7 @@ public class CalculationsV6
     	System.out.println(mNum1 + " * " + mNum2 + " = " + (mNum1 * mNum2));
     	System.out.println(mNum3 + " * " + mNum4 + " * " + mNum5 + " = " + (mNum3 * mNum4 * mNum5));
     	System.out.println(mNum6 + " * " + mNum7 + " = " +  (mNum6 * mNum7) + ", self added."); // Self added
-    	System.out.println(sdNum8 + " * " + sdNum9 + " = " +  (sdNum8 * sdNum9) + ", self added."); // Self added
+    	System.out.println(mdNum8 + " * " + mdNum9 + " = " +  (mdNum8 * mdNum9) + ", self added."); // Self added
         System.out.println();
 
     	int dNum1 = 9;
