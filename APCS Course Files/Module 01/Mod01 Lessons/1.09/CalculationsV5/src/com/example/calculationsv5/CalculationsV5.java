@@ -15,7 +15,7 @@ package com.example.calculationsv5;
  * 		m : multiplication
  * 		d : division
  * 		mo : modulus
- * Doubles are not defined as that is not something that I think needs to be said.
+		prefix + d : same type of equation as the prefix but that the var is a double.
  */
 
 

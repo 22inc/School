@@ -15,12 +15,11 @@ package com.example.calculationsv6;
  * 		m : multiplication
  * 		d : division
  * 		mo : modulus
- * 
- * Doubles are not defined as that is not something that I think needs to be said.
+ * 		prefix + d : same type of equation as the prefix but that the var is a double.
  * 
  * V6 Is actually V3, I did this pre-emptively and then it just happened to be the assignment. Sorry if there is any confusion when checking the versions.
  *
- * Additional equasions are marked with "// Self added", just look for that.
+ * Additional equations are marked with "// Self added", just look for that.
  */
 
 
@@ -37,11 +36,15 @@ public class CalculationsV6
     	int aNum6 = 98;
     	int aNum7 = 36;
     	
+    	double adNum8 = 2.82;
+    	double adNum9 = 8.34; 	
+    	
     	// Addition
     	System.out.println("Addition");
     	System.out.println(aNum1 + " + " + aNum2 + " = " +  (aNum1 + aNum2));
     	System.out.println(aNum3 + " + " + aNum4 + " = " +  (aNum3 + aNum4));
-    	System.out.println(aNum6 + " + " + aNum7 + " = " +  (aNum6 + aNum7)); // Self added
+    	System.out.println(aNum6 + " + " + aNum7 + " = " +  (aNum6 + aNum7) + ", self added."); // Self added
+    	System.out.println(adNum8 + " + " + adNum9 + " = " +  (adNum8 + adNum9) + ", self added."); // Self added
         System.out.println();
         
     	int sNum1 = 11;
@@ -54,11 +57,15 @@ public class CalculationsV6
     	int sNum6 = 8;
     	int sNum7 = 12;
     	
+    	double sdNum8 = 7.78;
+    	double sdNum9 = 32.65; 	
+    	
         // Subtraction
         System.out.println("Subtraction");
     	System.out.println(sNum1 + " - " + sNum2 + " - " + sNum3 + " = " + (sNum1 - sNum2 - sNum3));
     	System.out.println(sNum4 + " - " + sNum5 + " = " +  (sNum4 - sNum5));
-    	System.out.println(sNum6 + " - " + sNum7 + " = " +  (sNum6 - sNum7)); // Self added
+    	System.out.println(sNum6 + " - " + sNum7 + " = " +  (sNum6 - sNum7) + ", self added."); // Self added
+    	System.out.println(sdNum8 + " - " + sdNum9 + " = " +  (sdNum8 - sdNum9) + ", self added."); // Self added
         System.out.println();
 
     	int mNum1 = 25;
@@ -71,11 +78,15 @@ public class CalculationsV6
     	int mNum6 = 12;
     	int mNum7 = 82;
     	
+    	double mdNum8 = 39.25;
+    	double mdNum9 = 127.92; 	
+    	
         // Multiplication
         System.out.println("Multiplication");
     	System.out.println(mNum1 + " * " + mNum2 + " = " + (mNum1 * mNum2));
     	System.out.println(mNum3 + " * " + mNum4 + " * " + mNum5 + " = " + (mNum3 * mNum4 * mNum5));
-    	System.out.println(mNum6 + " * " + mNum7 + " = " +  (mNum6 * mNum7)); // Self added
+    	System.out.println(mNum6 + " * " + mNum7 + " = " +  (mNum6 * mNum7) + ", self added."); // Self added
+    	System.out.println(sdNum8 + " * " + sdNum9 + " = " +  (sdNum8 * sdNum9) + ", self added."); // Self added
         System.out.println();
 
     	int dNum1 = 9;
