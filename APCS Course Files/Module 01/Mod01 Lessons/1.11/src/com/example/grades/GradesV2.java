@@ -1,3 +1,11 @@
+/**
+ * Calculates total grade percentage.
+ *  
+ * @ author Malik Hassan
+ * @ version 09/29/2023 (1)
+ *
+ */
+
 package com.example.grades;
 
 public class GradesV2 {
@@ -7,7 +15,6 @@ public class GradesV2 {
         int totalPoints = 0;   // total points for all tests
         double average = 0.0;  // average grade
 
-        // Example test scores (you can replace these with your own)
         int[] testScores = {95, 73, 91, 82};
 
         for (int i = 0; i < testScores.length; i++) {
