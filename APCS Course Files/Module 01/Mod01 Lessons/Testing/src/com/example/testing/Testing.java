@@ -1,10 +1,9 @@
 package com.example.testing;
+import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
-        int x = 6;
-        int y = 4;
-        double z = (double) x / y;
-        System.out.println(z);
+    	String oldString = "Happy Friday Programmers!";
+    	String newString = ________________________; 
     }
 }
