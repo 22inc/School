@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class Testing {
     public static void main(String[] args) {
     	Scanner in = new Scanner(System.in);
-    	String genderString;
-		char gender = genderString.indexOf('0');
-    	boolean isFemale = gender == 'F';
-    	String ageString;
-		int age = Integer.parseInt(ageString);
+    	// "Samira".equals("Sami")
+    	// "SAMI".compareTo("Samira") < 0
+    	// "Sami".compareTo("SAMI") < 0
+    	System.out.println("Sami".compareTo("SAMI") < 0);
     }
 }
