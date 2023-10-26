@@ -1,7 +1,7 @@
 package com.example.bmi;
 
 /*
-* The purpose of this program is to calculate your place within the BMI system.
+* The purpose of this program is to calculate your place within the BMI.
 *
 * @author Malik Hassan
 * @version 10/25/2023
