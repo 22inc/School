@@ -5,11 +5,14 @@ import java.util.Scanner;
 
 import java.util.Scanner;
 
+/**
+ * This program calculates your daily calorie expenditure.
+ */
+
 public class TDEE {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Ask the user for their name, gender, and BMR.
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         
@@ -19,7 +22,6 @@ public class TDEE {
         System.out.print("Enter your BMR: ");
         double bmr = scanner.nextDouble();
         
-        // Display the menu of activity levels.
         System.out.println("Choose your activity level:");
         System.out.println("1. Resting (Sleeping, reclining)");
         System.out.println("2. Sedentary (Minimal movement, mainly sitting/lying down)");
@@ -28,7 +30,6 @@ public class TDEE {
         System.out.println("5. Very Active (Hard manual labor)");
         System.out.println("6. Extremely Active (Heavy manual labor)");
         
-        // Get the user's choice of activity level.
         int choice;
         double activityFactor = 0.0;
         do {
@@ -59,10 +60,8 @@ public class TDEE {
             }
         } while (choice < 1 || choice > 6);
 
-        // Calculate TDEE.
         double tdee = bmr * activityFactor;
 
-        // Display the results.
         System.out.println("\nResults for " + name + ":");
         System.out.println("Gender: " + gender);
         System.out.println("BMR: " + bmr);
