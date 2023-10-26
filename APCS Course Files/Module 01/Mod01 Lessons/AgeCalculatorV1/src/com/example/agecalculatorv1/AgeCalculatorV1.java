@@ -36,9 +36,6 @@ public class AgeCalculatorV1
 		// display name and minutes to screen
        System.out.print("Name: " + name);
        System.out.print("\t\t Age in Minutes: " + ageInMinutes + "\n");
-   
-       String firstInitial = firstName.subString(0,3);
-       String lastName = in.nextLine();
-       String name = firstInitial + ". " + lastName;
+
    }
 }
