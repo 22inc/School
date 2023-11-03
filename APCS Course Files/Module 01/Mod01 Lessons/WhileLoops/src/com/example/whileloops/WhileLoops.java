@@ -20,14 +20,11 @@ public class WhileLoops
 	    int totalFlips = 0;
 	    double randNum = 0.0;
 	    Scanner in = new Scanner(System.in);
-	    String firstInitial = "M";
-	    String capsLastName = "Hassan";
-	    String name = firstInitial + ". " + capsLastName;
-	    System.out.print(12 / 5);
+	    String genderString = in.next();
 
-	    int num = 300;
-	    if(num % 5 == 0)
-	    	System.out.print(num); 
+	    double heightCm = 2.54 * heightIn;
+	    if(true)
+	    double bMR = (10.0 * heightIn) + (6.25 * weightKg) - (5.0 * age) + s;
 	    
 	    // Input number of coins flipped
 	    System.out.println("How many times will the coin be flipped? ");
