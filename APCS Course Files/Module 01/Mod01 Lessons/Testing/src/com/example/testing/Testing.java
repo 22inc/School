@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
-    	   int flipCount = 0;
-    	   while(flipCount <= 10)
-    	   {
-    	     System.out.println("test");
-    	     flipCount++;
-    	   } 
+    	int x = 1;
+    	while(x < 18)
+    	{
+    	  x += 5;
+    	}
+    	System.out.println(x); 
     }
 }
