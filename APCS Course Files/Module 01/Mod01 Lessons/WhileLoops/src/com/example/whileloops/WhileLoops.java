@@ -22,7 +22,7 @@ public class WhileLoops
 	    Scanner in = new Scanner(System.in);
 
 	    // Input number of coins flipped
-	    System.out.println("How many times will the coin be flipped? ");
+	    System.out.p`rintln("How many times will the coin be flipped? ");
 	    totalFlips = in.nextInt();
 
 	    // Simulate flipping coins.
@@ -32,7 +32,7 @@ public class WhileLoops
 	        randNum = Math.random();
 	        System.out.print(flipCount + "\t" + randNum);
 
-	        if(randNum < 0.3)          //change to < 0.3
+	        if(randNum < 0.5)          //change to < 0.3
 	        {
 	            heads++;
 	            System.out.println("\t heads");

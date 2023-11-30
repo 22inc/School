@@ -3,11 +3,13 @@ import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
-    	int x = 1;
-    	while(x < 18)
+    	for(int outer = 7; outer > 0; outer -= 2)
     	{
-    	  x += 5;
-    	}
-    	System.out.println(x); 
+    	   for(int inner = 0; inner < outer; inner++)
+    	   {
+    	      System.out.print("*");
+    	   }
+    	   System.out.println();
+    	} 
     }
 }
