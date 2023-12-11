@@ -1,15 +1,19 @@
 package com.example.testing;
-import java.util.Scanner;
 
 public class Testing {
     public static void main(String[] args) {
-    	for(int outer = 7; outer > 0; outer -= 2)
-    	{
-    	   for(int inner = 0; inner < outer; inner++)
-    	   {
-    	      System.out.print("*");
-    	   }
-    	   System.out.println();
-    	} 
+    	String str = "Hello world!";
+    	int nonSpaceCount = countNonSpaceCharacters(str);
+    	System.out.println("Number of non-space characters: " + nonSpaceCount);
+    }
+    
+    public static int countNonSpaceCharacters(String str) {
+    	  int count = 0;
+    	  for (char c : str.toCharArray()) {
+    	    if (!Character.isWhitespace(c)) {
+    	      count++;
+    	    }
+    	  }
+    	  return count;
     }
 }
